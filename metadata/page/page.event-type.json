@@ -1,0 +1,86 @@
+{
+  "_id": "page.event-child",
+  "_type": "page.singlequestion",
+  "actionType": "saveContinue",
+  "components": [
+    {
+      "_id": "page.event--checkboxes",
+      "_type": "checkboxes",
+      "hint": "What are you creating a diary entry about?",
+      "items": [
+        {
+          "_id": "page.event--checkboxes--checkbox.event-home-life",
+          "_type": "checkbox",
+          "hint": "things to celebrate; milestones",
+          "label": "Home life",
+          "name": "event-home-life"
+        },
+        {
+          "_id": "page.event--checkboxes--checkbox.event-school-life",
+          "_type": "checkbox",
+          "hint": "positives and improvements; things that help; things I’m worried about or need help with",
+          "label": "School life",
+          "name": "event-school-life"
+        },
+        {
+          "_id": "page.event--checkboxes--checkbox.event-sports",
+          "_type": "checkbox",
+          "hint": "progress and achievements; concerns; incidents; visits",
+          "label": "Sports, clubs and activities",
+          "name": "event-sports"
+        },
+        {
+          "_id": "page.event--checkboxes--checkbox.event-physical-health",
+          "_type": "checkbox",
+          "hint": "accidents; illnesses; appointments",
+          "label": "Physical health",
+          "name": "event-physical-health"
+        },
+        {
+          "_id": "page.event--checkboxes--checkbox.event-emotional-health",
+          "_type": "checkbox",
+          "hint": "what’s going well; concerns",
+          "label": "Emotional health and wellbeing",
+          "name": "event-emotional-health"
+        },
+        {
+          "_id": "page.event--checkboxes--checkbox.event-educational-needs",
+          "_type": "checkbox",
+          "hint": "what’s going well; concerns",
+          "label": "Special educational needs",
+          "name": "event-educational-needs"
+        },
+        {
+          "_id": "page.event--checkboxes--checkbox.event-friends",
+          "_type": "checkbox",
+          "hint": "what’s going well; concerns",
+          "label": "Friends",
+          "name": "event-friends"
+        },
+        {
+          "_id": "page.event--checkboxes--checkbox.event-other",
+          "_type": "checkbox",
+          "hint": "what’s going well; concerns",
+          "label": "Make a note about something else",
+          "name": "event-other"
+        },
+        {
+          "_id": "page.event--checkboxes--checkbox.event-serious-incident",
+          "_type": "checkbox",
+          "hint": "what’s going well; concerns",
+          "label": "Serious incident",
+          "name": "event-serious-incident"
+        }
+      ],
+      "legend": "Create a new diary entry for your child",
+      "validation": {
+        "required": true
+      }
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.event-home-life"
+  ],
+  "url": "event"
+}

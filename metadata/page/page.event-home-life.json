@@ -1,0 +1,78 @@
+{
+    "_id": "page.event-home-life",
+    "_type": "page.form",
+    "actionType": "saveContinue",
+    "components": [
+      {
+        "_id": "page.event-home-life--select.id",
+        "_type": "select",
+        "name": "id",
+        "label": "What this diary log is about?",
+        "items": [
+          {
+            "$component": true,
+            "$definition": true,
+            "$option": true,
+            "_id": "home-life-behaviour",
+            "value": "behaviour",
+            "text": "Behaviour"
+          },
+          {
+            "$component": true,
+            "$definition": true,
+            "$option": true,
+            "_id": "home-life-skills",
+            "value": "life",
+            "text": "Life Skills"
+          },
+          {
+            "$component": true,
+            "$definition": true,
+            "$option": true,
+            "_id": "home-life-family",
+            "value": "family",
+            "text": "Family Relationships"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-home-life--radios.positiveornegative",
+        "_type": "radios",
+        "classes": "govuk-radios--inline",
+        "name": "positiveornegative",
+        "label": "What feeling do you have about this?",
+        "items": [
+          {
+            "$component": true,
+            "$definition": true,
+            "$option": true,
+            "_id": "home-life-positive",
+            "_type": "radio",
+            "label": "Positive",
+            "value": "1"
+          },
+          {
+            "$component": true,
+            "$definition": true,
+            "$option": true,
+            "_id": "home-life-negative",
+            "_type": "radio",
+            "label": "Negative",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-home-life--textarea.log",
+        "_type": "textarea",
+        "label": "Give details:",
+        "name": "log"
+      }
+    ],
+    "heading": "Home Life",
+    "show": {
+      "identifier": "event-home-life",
+      "operator": "defined"
+    },
+    "url": "home-life"
+  }

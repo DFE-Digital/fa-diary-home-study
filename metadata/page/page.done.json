@@ -1,0 +1,8 @@
+{
+  "_id": "page.done",
+  "_type": "page.confirmation",
+  "heading": "Thank you",
+  "lede": "Your notes have been submitted successfully.",
+  "url": "done",
+  "html": "<p>ddd</p>"
+}

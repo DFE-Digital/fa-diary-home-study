@@ -1,0 +1,38 @@
+{
+    "_id": "page.event-who",
+    "_type": "page.singlequestion",
+    "actionType": "continue",
+    "components": [
+      {
+        "_id": "page.event-subject--radios.event-subject",
+        "_type": "radios",
+        "items": [
+          {
+            "_id": "page.event-subject--radios.event-subject--radio.auto_value__1",
+            "_type": "radio",
+            "label": "Create a new diary entry for one of your children",
+            "value": "auto_value__1",
+            "conditional": {
+              "html": "<div class=\"govuk-form-group\"><label class=\"govuk-label\" for=\"auto_name__99-2\">Each of your children will have been assigned an anonymous identifier which you should use, e.g for child A, enter A in the text box below.</label><input class=\"govuk-input govuk-!-width-one-third\" id=\"auto_name_99-2\" name=\"auto_name__99-2\" type=\"text\" spellcheck=\"false\"></div>"
+            }
+          },
+          {
+            "_id": "page.event-subject--radios.event-subject--radio.auto_value__2",
+            "_type": "radio",
+            "label": "Update infomation about myself (foster parent)",
+            "value": "auto_value__2"
+          }
+        ],
+        "legend": "What do you want to do?",
+        "name": "event-subject"
+      }
+    ],
+    "enableSteps": true,
+    "steps": [
+      "page.event-child",
+      "page.check",
+      "page.done"
+    ],
+    "url": "/diary-entry"
+  }
+  
