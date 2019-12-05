@@ -13,7 +13,7 @@
             "label": "Create a new diary entry for one of your children",
             "value": "auto_value__1",
             "conditional": {
-              "html": "<div class=\"govuk-form-group\"><label class=\"govuk-label\" for=\"auto_name__99-2\">Each of your children will have been assigned an anonymous identifier which you should use, e.g for child A, enter A in the text box below.</label><input class=\"govuk-input govuk-!-width-one-third\" id=\"auto_name_99-2\" name=\"auto_name__99-2\" type=\"text\" spellcheck=\"false\"></div>"
+              "html": "<div class=\"govuk-form-group\"><label class=\"govuk-label\" for=\"auto_name__99-2\">Please enter your child letter.</label><input class=\"govuk-input govuk-!-width-one-third\" id=\"auto_name_99-2\" name=\"auto_name__99-2\" type=\"text\" spellcheck=\"false\"></div>"
             }
           },
           {

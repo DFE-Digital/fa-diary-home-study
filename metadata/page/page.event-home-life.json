@@ -40,7 +40,7 @@
         "_type": "radios",
         "classes": "govuk-radios--inline",
         "name": "positiveornegative",
-        "label": "What feeling do you have about this?",
+        "label": "Is the event negative or positive?",
         "items": [
           {
             "$component": true,

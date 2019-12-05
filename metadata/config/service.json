@@ -2,7 +2,7 @@
   "_id": "service",
   "_isa": "@ministryofjustice/fb-components-core=>service",
   "_type": "config.service",
-  "name": "Foster Parenting",
+  "name": "Foster Parenting Test Logs",
   "phase": "alpha",
   "phaseText": "Home Diary Study"
 }
