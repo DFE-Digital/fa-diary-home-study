@@ -30,6 +30,7 @@
     "enableSteps": true,
     "steps": [
       "page.event-child",
+      "page.parent-update",
       "page.check",
       "page.done"
     ],

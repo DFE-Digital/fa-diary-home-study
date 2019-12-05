@@ -1,0 +1,307 @@
+{
+    "_id": "page.parent-update",
+    "_type": "page.form",
+    "actionType": "saveContinue",
+    "components": [
+        {
+          "_id": "page.parent-update-approval-type--checkboxes",
+          "_type": "checkboxes",
+          "items": [
+            {
+              "_id": "page.parent-update-approval-type--checkboxes--checkbox.approval-type-1",
+              "_type": "checkbox",
+              "label": "Long term fostering",
+              "name": "approval-type-1"
+            },
+            {
+              "_id": "page.parent-update-approval-type--checkboxes--checkbox.approval-type-2",
+              "_type": "checkbox",
+              "label": "Short term fostering",
+              "name": "approval-type-2"
+            },
+            {
+              "_id": "page.parent-update-approval-type--checkboxes--checkbox.approval-type-3",
+              "_type": "checkbox",
+              "label": "Kinship fostering",
+              "name": "approval-type-3"
+            },
+            {
+              "_id": "page.parent-update-approval-type--checkboxes--checkbox.approval-type-4",
+              "_type": "checkbox",
+              "label": "Emergency fostering",
+              "name": "approval-type-4"
+            },
+            {
+              "_id": "page.parent-update-approval-type--checkboxes--checkbox.approval-type-5",
+              "_type": "checkbox",
+              "label": "Respite and short breaks",
+              "name": "approval-type-5"
+            },
+            {
+              "_id": "page.parent-update-approval-type--checkboxes--checkbox.approval-type-6",
+              "_type": "checkbox",
+              "label": "Remand fostering",
+              "name": "approval-type-6"
+            },
+            {
+                "_id": "page.parent-update-approval-type--checkboxes--checkbox.approval-type-7",
+                "_type": "checkbox",
+                "label": "Fostering for adoption",
+                "name": "approval-type-7"
+              },
+              {
+                "_id": "page.parent-update-approval-type--checkboxes--checkbox.approval-type-8",
+                "_type": "checkbox",
+                "label": "Specialist theraputic fostering",
+                "name": "approval-type-8"
+              }
+          ],
+          "legend": "I am approved for:",
+          "validation": {
+            "required": true
+          }
+        },
+          {
+            "_id": "page.parent-update-availability--radios.availability-bedroom-1",
+            "_type": "radios",
+            "classes": "govuk-radios--inline",
+            "name": "availability-bedroom-1",
+            "label": "Bedroom 1",
+            "items": [
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-1-full",
+                "_type": "radio",
+                "label": "Full",
+                "value": "full"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-1-available",
+                "_type": "radio",
+                "label": "Available",
+                "value": "available"
+              }
+            ]
+          },
+          {
+            "_id": "page.parent-update-availability--radios.availability-bedroom-2",
+            "_type": "radios",
+            "classes": "govuk-radios--inline",
+            "name": "availability-bedroom-2",
+            "label": "Bedroom 2",
+            "items": [
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-2-full",
+                "_type": "radio",
+                "label": "Full",
+                "value": "full"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-2-available",
+                "_type": "radio",
+                "label": "Available",
+                "value": "available"
+              }
+            ]
+          },
+          {
+            "_id": "page.parent-update-availability--radios.availability-bedroom-3",
+            "_type": "radios",
+            "classes": "govuk-radios--inline",
+            "name": "availability-bedroom-3",
+            "label": "Bedroom 3",
+            "items": [
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-3-full",
+                "_type": "radio",
+                "label": "Full",
+                "value": "full"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-3-available",
+                "_type": "radio",
+                "label": "Available",
+                "value": "available"
+              }
+            ]
+          },
+          {
+            "_id": "page.parent-update-training--checkboxes",
+            "_type": "checkboxes",
+            "items": [
+              {
+                "_id": "page.parent-update-training--checkboxes--checkbox.training-type-1",
+                "_type": "checkbox",
+                "label": "Principles and values for fostering",
+                "name": "training-type-1"
+              },
+              {
+                "_id": "page.parent-update-training--checkboxes--checkbox.training-type-2",
+                "_type": "checkbox",
+                "label": "Foster carer role",
+                "name": "training-type-2"
+              },
+              {
+                "_id": "page.parent-update-training--checkboxes--checkbox.training-type-3",
+                "_type": "checkbox",
+                "label": "Health and safety",
+                "name": "training-type-3"
+              },
+              {
+                "_id": "page.parent-update-training--checkboxes--checkbox.training-type-4",
+                "_type": "checkbox",
+                "label": "Health care",
+                "name": "training-type-4"
+              },
+              {
+                "_id": "page.parent-update-training--checkboxes--checkbox.training-type-5",
+                "_type": "checkbox",
+                "label": "How to communicate effectively",
+                "name": "training-type-5"
+              },
+              {
+                "_id": "page.parent-update-training--checkboxes--checkbox.training-type-6",
+                "_type": "checkbox",
+                "label": "Understand child development",
+                "name": "training-type-6"
+              },
+              {
+                "_id": "page.parent-update-training--checkboxes--checkbox.training-type-7",
+                "_type": "checkbox",
+                "label": "Keeping children safe from harm",
+                "name": "training-type-7"
+              },
+              {
+                "_id": "page.parent-update-training--checkboxes--checkbox.training-type-8",
+                "_type": "checkbox",
+                "label": "Develop yourself",
+                "name": "training-type-8"
+              }
+            ],
+            "legend": "Training and qualifications:",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "_id": "page.parent-update-approval-group--checkboxes",
+            "_type": "checkboxes",
+            "items": [
+              {
+                "_id": "page.parent-update-approval-group--checkboxes--checkbox.approval-group-1",
+                "_type": "checkbox",
+                "label": "0-2 Year olds",
+                "name": "approval-group-1"
+              },
+              {
+                "_id": "page.parent-update-approval-group--checkboxes--checkbox.approval-group-2",
+                "_type": "checkbox",
+                "label": "3-4 Year olds",
+                "name": "approval-group-2"
+              },
+              {
+                "_id": "page.parent-update-approval-group--checkboxes--checkbox.approval-group-3",
+                "_type": "checkbox",
+                "label": "5-10 Year olds",
+                "name": "approval-group-3"
+              },
+              {
+                "_id": "page.parent-update-approval-group--checkboxes--checkbox.approval-group-4",
+                "_type": "checkbox",
+                "label": "11-15 Year olds",
+                "name": "approval-group-4"
+              },
+              {
+                "_id": "page.parent-update-approval-group--checkboxes--checkbox.approval-group-5",
+                "_type": "checkbox",
+                "label": "16-17 Year olds",
+                "name": "approval-group-5"
+              },
+              {
+                "_id": "page.parent-update-approval-group--checkboxes--checkbox.approval-group-6",
+                "_type": "checkbox",
+                "label": "Special educational needs",
+                "name": "approval-group-6"
+              }
+            ],
+            "legend": "Approved for fostering:",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "_id": "page.parent-update-preferance-group--checkboxes",
+            "_type": "checkboxes",
+            "items": [
+                {
+                    "_id": "page.parent-update-preferance-group--checkboxes--checkbox.preferance-group-1",
+                    "_type": "checkbox",
+                    "label": "Babies",
+                    "name": "preferance-group-1"
+                  },
+                  {
+                    "_id": "page.parent-update-preferance-group--checkboxes--checkbox.preferance-group-2",
+                    "_type": "checkbox",
+                    "label": "Pre-school",
+                    "name": "preferance-group-2"
+                  },
+                  {
+                    "_id": "page.parent-update-preferance-group--checkboxes--checkbox.preferance-group-3",
+                    "_type": "checkbox",
+                    "label": "Primary-school aged children",
+                    "name": "preferance-group-3"
+                  },
+                  {
+                    "_id": "page.parent-update-preferance-group--checkboxes--checkbox.preferance-group-4",
+                    "_type": "checkbox",
+                    "label": "Secondary-school aged children",
+                    "name": "preferance-group-4"
+                  },
+                  {
+                    "_id": "page.parent-update-preferance-group--checkboxes--checkbox.preferance-group-5",
+                    "_type": "checkbox",
+                    "label": "Older teenagers",
+                    "name": "preferance-group-5"
+                  },
+                  {
+                    "_id": "page.parent-update-preferance-group--checkboxes--checkbox.preferance-group-6",
+                    "_type": "checkbox",
+                    "label": "Special educational needs",
+                    "name": "preferance-group-6"
+                  }
+            ],
+            "legend": "Preference for fostering:",
+            "validation": {
+              "required": true
+            }
+          }
+    ],
+    "heading": "About Myself",
+    "show": {
+      "identifier": "event-subject",
+      "operator": "is",
+      "value": "auto_value__2"
+    },
+    "enableSteps": true,
+    "steps": [
+      "page.parent-request-training"
+    ],
+    "url": "/about-myself"
+  }

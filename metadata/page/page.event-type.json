@@ -68,6 +68,11 @@
       }
     }
   ],
+  "show": {
+    "identifier": "event-subject",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
   "enableSteps": true,
   "steps": [
     "page.event-home-life"

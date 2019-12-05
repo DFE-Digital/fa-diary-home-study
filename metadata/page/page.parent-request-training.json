@@ -1,0 +1,109 @@
+{
+    "_id": "page.parent-request-training",
+    "_type": "page.form",
+    "actionType": "saveContinue",
+    "components": [
+          {
+            "_id": "page.parent-request-training--checkboxes",
+            "_type": "checkboxes",
+            "items": [
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-1",
+                "_type": "checkbox",
+                "label": "Understand the role fo the supervising social worker",
+                "name": "training-request-1"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-2",
+                "_type": "checkbox",
+                "label": "Understanding county lines",
+                "name": "training-request-2"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-3",
+                "_type": "checkbox",
+                "label": "The impact of foetal alcohol spectrum disorder",
+                "name": "training-request-3"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-4",
+                "_type": "checkbox",
+                "label": "Manage allegations and standards of care concerns",
+                "name": "training-request-4"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-5",
+                "_type": "checkbox",
+                "label": "Understanding care planning and permanence ",
+                "name": "training-request-5"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-6",
+                "_type": "checkbox",
+                "label": "Understanding the legal issues",
+                "name": "training-request-6"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-7",
+                "_type": "checkbox",
+                "label": "Contact with birth family and the impact of fostering on your family",
+                "name": "training-request-7"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-8",
+                "_type": "checkbox",
+                "label": "Safer caring guidelines",
+                "name": "training-request-8"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-9",
+                "_type": "checkbox",
+                "label": "Recording and information sharing",
+                "name": "training-request-9"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-10",
+                "_type": "checkbox",
+                "label": "Participation in LAC reviews",
+                "name": "training-request-10"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-11",
+                "_type": "checkbox",
+                "label": "Practical and emotional impact of moves in foster care",
+                "name": "training-request-11"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-12",
+                "_type": "checkbox",
+                "label": "Recognising mon's role in fostering",
+                "name": "training-request-12"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-13",
+                "_type": "checkbox",
+                "label": "Attachment and loss",
+                "name": "training-request-13"
+              },
+              {
+                "_id": "page.parent-request-training--checkboxes--checkbox.training-request-14",
+                "_type": "checkbox",
+                "label": "Behaviour management",
+                "name": "training-request-14"
+              }
+            ],
+            "legend": "Request training in:",
+            "validation": {
+              "required": false
+            }
+          },
+          {
+            "_id": "page.parent-request-training--textarea.training-request-other",
+            "_type": "textarea",
+            "label": "Do you have any other training requirements not listed here?",
+            "name": "training-request-other"
+          }
+    ],
+    "heading": "Foster parent training",
+    "url": "/request-training"
+  }
