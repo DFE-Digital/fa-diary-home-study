@@ -1,0 +1,40 @@
+{
+    "_id": "page.event-other",
+    "_type": "page.form",
+    "actionType": "saveContinue",
+    "components": [
+      {
+        "_id": "page.event-other--radios.other-positiveornegative",
+        "_type": "radios",
+        "classes": "govuk-radios--inline",
+        "name": "other-positiveornegative",
+        "label": "Is this negative or positive?",
+        "items": [
+          {
+            "_id": "other-positive",
+            "_type": "radio",
+            "label": "Positive",
+            "value": "1"
+          },
+          {
+            "_id": "other-negative",
+            "_type": "radio",
+            "label": "Negative",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-other--textarea.other-log",
+        "_type": "textarea",
+        "label": "Give details:",
+        "name": "other-log"
+      }
+    ],
+    "heading": "Make a note about something else",
+    "show": {
+      "identifier": "event-other",
+      "operator": "defined"
+    },
+    "url": "other"
+  }

@@ -1,0 +1,73 @@
+{
+    "_id": "page.event-sport",
+    "_type": "page.form",
+    "actionType": "saveContinue",
+    "components": [
+      {
+        "_id": "page.event-sport--select.sport-id",
+        "_type": "select",
+        "name": "sport-id",
+        "label": "What this diary log is about?",
+        "items": [
+          {
+            "_id": "sport-attendance",
+            "value": "attendance",
+            "text": "Attendance"
+          },
+          {
+            "_id": "sport-behaviour",
+            "value": "behaviour",
+            "text": "Behaviour"
+          },
+          {
+            "_id": "sport-progress",
+            "value": "progress",
+            "text": "Progress / Achievements"
+          },
+          {
+            "_id": "sport-relationships",
+            "value": "relationships",
+            "text": "Peer relationships"
+          },
+          {
+            "_id": "sport-participation",
+            "value": "participation",
+            "text": "Enjoys taking part"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-sport--radios.sport-positiveornegative",
+        "_type": "radios",
+        "classes": "govuk-radios--inline",
+        "name": "sport-positiveornegative",
+        "label": "Is this negative or positive?",
+        "items": [
+          {
+            "_id": "sport-positive",
+            "_type": "radio",
+            "label": "Positive",
+            "value": "1"
+          },
+          {
+            "_id": "sport-negative",
+            "_type": "radio",
+            "label": "Negative",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-sport--textarea.sport-log",
+        "_type": "textarea",
+        "label": "Give details:",
+        "name": "sport-log"
+      }
+    ],
+    "heading": "Sports, clubs and activities",
+    "show": {
+      "identifier": "event-sport",
+      "operator": "defined"
+    },
+    "url": "sport"
+  }

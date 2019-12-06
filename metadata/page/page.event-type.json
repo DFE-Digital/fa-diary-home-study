@@ -20,10 +20,10 @@
           "name": "event-school-life"
         },
         {
-          "_id": "page.event--checkboxes--checkbox.event-sports",
+          "_id": "page.event--checkboxes--checkbox.event-sport",
           "_type": "checkbox",
           "label": "Sports, clubs and activities",
-          "name": "event-sports"
+          "name": "event-sport"
         },
         {
           "_id": "page.event--checkboxes--checkbox.event-physical-health",
@@ -38,10 +38,10 @@
           "name": "event-emotional-health"
         },
         {
-          "_id": "page.event--checkboxes--checkbox.event-educational-needs",
+          "_id": "page.event--checkboxes--checkbox.event-special-education",
           "_type": "checkbox",
           "label": "Special educational needs",
-          "name": "event-educational-needs"
+          "name": "event-special-education"
         },
         {
           "_id": "page.event--checkboxes--checkbox.event-friends",
@@ -75,7 +75,15 @@
   },
   "enableSteps": true,
   "steps": [
-    "page.event-home-life"
+    "page.event-home-life",
+    "page.event-school-life",
+    "page.event-emotional-health",
+    "page.event-physical-health",
+    "page.event-friends",
+    "page.event-sport",
+    "page.event-special-education",
+    "page.event-other",
+    "page.event-serious-incident"
   ],
   "url": "event"
 }

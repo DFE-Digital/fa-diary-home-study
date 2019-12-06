@@ -1,0 +1,40 @@
+{
+    "_id": "page.event-special-education",
+    "_type": "page.form",
+    "actionType": "saveContinue",
+    "components": [
+      {
+        "_id": "page.event-special-education--radios.special-education-positiveornegative",
+        "_type": "radios",
+        "classes": "govuk-radios--inline",
+        "name": "special-education-positiveornegative",
+        "label": "Is this negative or positive?",
+        "items": [
+          {
+            "_id": "special-education-positive",
+            "_type": "radio",
+            "label": "Positive",
+            "value": "1"
+          },
+          {
+            "_id": "special-education-negative",
+            "_type": "radio",
+            "label": "Negative",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-special-education--textarea.special-education-log",
+        "_type": "textarea",
+        "label": "Give details:",
+        "name": "special-education-log"
+      }
+    ],
+    "heading": "Special educational needs",
+    "show": {
+      "identifier": "event-special-education",
+      "operator": "defined"
+    },
+    "url": "special-education"
+  }

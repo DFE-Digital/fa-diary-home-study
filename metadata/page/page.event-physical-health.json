@@ -1,0 +1,78 @@
+{
+    "_id": "page.event-physical-health",
+    "_type": "page.form",
+    "actionType": "saveContinue",
+    "components": [
+      {
+        "_id": "page.event-physical-health--select.physical-health-id",
+        "_type": "select",
+        "name": "physical-health-id",
+        "label": "What this diary log is about?",
+        "items": [
+          {
+            "_id": "physical-health-accident",
+            "value": "accident",
+            "text": "Accident"
+          },
+          {
+            "_id": "physical-health-gp",
+            "value": "gp",
+            "text": "GP visit"
+          },
+          {
+            "_id": "physical-health-hospital",
+            "value": "hospital",
+            "text": "Hospital visit"
+          },
+          {
+            "_id": "physical-health-dentist",
+            "value": "dentist",
+            "text": "Dentist"
+          },
+          {
+            "_id": "physical-health-optician",
+            "value": "optician",
+            "text": "Optician"
+          },
+          {
+            "_id": "physical-health-hearing",
+            "value": "hearing",
+            "text": "Hearing appointment"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-physical-health--radios.physical-health-positiveornegative",
+        "_type": "radios",
+        "classes": "govuk-radios--inline",
+        "name": "physical-health-positiveornegative",
+        "label": "Is this negative or positive?",
+        "items": [
+          {
+            "_id": "physical-health-positive",
+            "_type": "radio",
+            "label": "Positive",
+            "value": "1"
+          },
+          {
+            "_id": "physical-health-negative",
+            "_type": "radio",
+            "label": "Negative",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-physical-health--textarea.physical-health-log",
+        "_type": "textarea",
+        "label": "Give details:",
+        "name": "physical-health-log"
+      }
+    ],
+    "heading": "Physical health",
+    "show": {
+      "identifier": "event-physical-health",
+      "operator": "defined"
+    },
+    "url": "physical-health"
+  }

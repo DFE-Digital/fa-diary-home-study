@@ -66,7 +66,7 @@
             "_type": "radios",
             "classes": "govuk-radios--inline",
             "name": "availability-bedroom-1",
-            "label": "Bedroom 1",
+            "label": "Bedroom 1:",
             "items": [
               {
                 "$component": true,
@@ -93,7 +93,7 @@
             "_type": "radios",
             "classes": "govuk-radios--inline",
             "name": "availability-bedroom-2",
-            "label": "Bedroom 2",
+            "label": "Bedroom 2:",
             "items": [
               {
                 "$component": true,
@@ -120,7 +120,7 @@
             "_type": "radios",
             "classes": "govuk-radios--inline",
             "name": "availability-bedroom-3",
-            "label": "Bedroom 3",
+            "label": "Bedroom 3:",
             "items": [
               {
                 "$component": true,

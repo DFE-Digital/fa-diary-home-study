@@ -1,0 +1,40 @@
+{
+    "_id": "page.event-emotional-health",
+    "_type": "page.form",
+    "actionType": "saveContinue",
+    "components": [
+      {
+        "_id": "page.event-emotional-health--radios.emotional-health-positiveornegative",
+        "_type": "radios",
+        "classes": "govuk-radios--inline",
+        "name": "emotional-health-positiveornegative",
+        "label": "Is this negative or positive?",
+        "items": [
+          {
+            "_id": "emotional-health-positive",
+            "_type": "radio",
+            "label": "Positive",
+            "value": "1"
+          },
+          {
+            "_id": "emotional-health-negative",
+            "_type": "radio",
+            "label": "Negative",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-emotional-health--textarea.emotional-health-log",
+        "_type": "textarea",
+        "label": "Give details:",
+        "name": "emotional-health-log"
+      }
+    ],
+    "heading": "Emotional health and wellbeing",
+    "show": {
+      "identifier": "event-emotional-health",
+      "operator": "defined"
+    },
+    "url": "emotional-health"
+  }

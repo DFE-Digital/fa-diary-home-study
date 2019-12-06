@@ -1,0 +1,99 @@
+{
+    "_id": "page.event-serious-incident",
+    "_type": "page.form",
+    "actionType": "saveContinue",
+    "components": [
+      {
+        "_id": "page.event-serious-incident--select.serious-incident-id",
+        "_type": "select",
+        "name": "serious-incident-id",
+        "label": "What this diary log is about?",
+        "items": [
+          {
+            "_id": "serious-incident-missing",
+            "value": "missing",
+            "text": "Gone missing"
+          },
+          {
+            "_id": "serious-incident-violent",
+            "value": "violent",
+            "text": "Violent behaviour"
+          },
+          {
+            "_id": "serious-incident-sexual",
+            "value": "sexual",
+            "text": "Sexual behaviour"
+          },
+          {
+            "_id": "serious-incident-drugs",
+            "value": "drugs",
+            "text": "Involved drugs"
+          },
+          {
+            "_id": "serious-incident-alcohol",
+            "value": "alcohol",
+            "text": "Involved alcohol"
+          },
+          {
+            "_id": "serious-incident-gang",
+            "value": "gang",
+            "text": "Gang activity"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-serious-incident--radios.serious-incident-bytowards",
+        "_type": "radios",
+        "classes": "govuk-radios--inline",
+        "name": "serious-incident-bytowards",
+        "label": "Was this by my child or towards my child?",
+        "items": [
+          {
+            "_id": "serious-incident-by",
+            "_type": "radio",
+            "label": "By my child",
+            "value": "by"
+          },
+          {
+            "_id": "serious-incident-towards",
+            "_type": "radio",
+            "label": "Towards my child",
+            "value": "towards"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-serious-incident--radios.serious-incident-police",
+        "_type": "radios",
+        "classes": "govuk-radios--inline",
+        "name": "serious-incident-police",
+        "label": "Where the police involved?",
+        "items": [
+          {
+            "_id": "serious-incident-police-yes",
+            "_type": "radio",
+            "label": "Yes",
+            "value": "yes"
+          },
+          {
+            "_id": "serious-incident-police-no",
+            "_type": "radio",
+            "label": "No",
+            "value": "no"
+          }
+        ]
+      },
+      {
+        "_id": "page.event-serious-incident--textarea.serious-incident-log",
+        "_type": "textarea",
+        "label": "Give details:",
+        "name": "serious-incident-log"
+      }
+    ],
+    "heading": "Serious incident",
+    "show": {
+      "identifier": "event-serious-incident",
+      "operator": "defined"
+    },
+    "url": "serious-incident"
+  }
