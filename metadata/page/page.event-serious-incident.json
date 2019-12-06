@@ -7,7 +7,7 @@
         "_id": "page.event-serious-incident--select.serious-incident-id",
         "_type": "select",
         "name": "serious-incident-id",
-        "label": "What this diary log is about?",
+        "label": "What do you want to write about?",
         "items": [
           {
             "_id": "serious-incident-missing",

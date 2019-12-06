@@ -17,7 +17,7 @@
           {
             "_id": "page.event-subject--radios.event-subject--radio.auto_value__2",
             "_type": "radio",
-            "label": "Update infomation about myself (foster parent)",
+            "label": "Update information about yourself",
             "value": "auto_value__2"
           }
         ],

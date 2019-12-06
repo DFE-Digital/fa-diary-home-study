@@ -17,12 +17,12 @@
           {
             "_id": "home-life-skills",
             "value": "life",
-            "text": "Life Skills"
+            "text": "Life skills"
           },
           {
             "_id": "home-life-family",
             "value": "family",
-            "text": "Family Relationships"
+            "text": "Family relationships"
           }
         ]
       },

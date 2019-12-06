@@ -7,7 +7,7 @@
         "_id": "page.event-child--text.event-child",
         "_type": "text",
         "label": "Which child is this about?",
-        "hint": "Please enter the child letter:",
+        "hint": "Please enter the child's letter:",
         "name": "event-child"
       }
     ],
