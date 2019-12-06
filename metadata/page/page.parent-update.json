@@ -66,7 +66,7 @@
             "_type": "radios",
             "classes": "govuk-radios--inline",
             "name": "availability-bedroom-1",
-            "label": "Bedroom:",
+            "label": "Bedroom 1:",
             "items": [
               {
                 "$component": true,
@@ -85,6 +85,80 @@
                 "_type": "radio",
                 "label": "Available",
                 "value": "available"
+              }
+            ]
+          },
+          {
+            "_id": "page.parent-update-availability--radios.availability-bedroom-2",
+            "_type": "radios",
+            "classes": "govuk-radios--inline",
+            "name": "availability-bedroom-2",
+            "label": "Bedroom 2:",
+            "items": [
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-2-full",
+                "_type": "radio",
+                "label": "Full",
+                "value": "full"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-2-available",
+                "_type": "radio",
+                "label": "Available",
+                "value": "available"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-2-na",
+                "_type": "radio",
+                "label": "Not applicable",
+                "value": "not applicable",
+                "checked": true
+              }
+            ]
+          },
+          {
+            "_id": "page.parent-update-availability--radios.availability-bedroom-3",
+            "_type": "radios",
+            "classes": "govuk-radios--inline",
+            "name": "availability-bedroom-3",
+            "label": "Bedroom 3:",
+            "items": [
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-3-full",
+                "_type": "radio",
+                "label": "Full",
+                "value": "full"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-3-available",
+                "_type": "radio",
+                "label": "Available",
+                "value": "available"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "bedroom-3-na",
+                "_type": "radio",
+                "label": "Not applicable",
+                "value": "not applicable",
+                "checked": true
               }
             ]
           },
