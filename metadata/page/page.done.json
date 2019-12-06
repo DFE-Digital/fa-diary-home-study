@@ -3,7 +3,7 @@
   "_type": "page.confirmation",
   "heading": "Thank you",
   "lede": "Your diary entry has been submitted successfully.",
-  "url": "done",
+  "url": "/done",
   "components": [
     {
       "_id": "page.confirmation--button.new-entry",

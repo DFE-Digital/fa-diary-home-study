@@ -84,5 +84,5 @@
     "page.event-other",
     "page.event-serious-incident"
   ],
-  "url": "event"
+  "url": "/event"
 }
