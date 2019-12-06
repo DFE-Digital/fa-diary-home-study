@@ -6,6 +6,7 @@
           {
             "_id": "page.parent-request-training--checkboxes",
             "_type": "checkboxes",
+            "heading": "Foster parent training",
             "items": [
               {
                 "_id": "page.parent-request-training--checkboxes--checkbox.training-request-1",
