@@ -32,7 +32,12 @@
           {
             "_id": "sport-participation",
             "value": "participation",
-            "text": "Enjoys taking part"
+            "text": "Enjoys taking part?"
+          },
+          {
+            "_id": "sport-other",
+            "value": "other",
+            "text": "Other"
           }
         ]
       },

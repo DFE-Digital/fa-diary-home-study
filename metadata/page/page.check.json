@@ -2,9 +2,8 @@
   "_id": "page.check",
   "_type": "page.summary",
   "actionType": "continue",
-  "body": "Here you can check your answers before submitting.",
+  "body": "Here you can check your answers before you send them to us.",
   "heading": "Review your diary entry",
-  "sendBody": "By submitting these notes you confirm that, to the best of your knowledge, the details you are providing are correct.",
   "sendHeading": "Now send your diary entry",
   "url": "/review-diary-entry"
 }

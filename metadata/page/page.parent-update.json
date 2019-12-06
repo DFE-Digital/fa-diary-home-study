@@ -52,7 +52,7 @@
               {
                 "_id": "page.parent-update-approval-type--checkboxes--checkbox.approval-type-8",
                 "_type": "checkbox",
-                "label": "Specialist theraputic fostering",
+                "label": "Specialist therapeutic fostering",
                 "name": "approval-type-8"
               }
           ],
@@ -313,7 +313,7 @@
             }
           }
     ],
-    "heading": "About Myself",
+    "heading": "About myself",
     "show": {
       "identifier": "event-subject",
       "operator": "is",

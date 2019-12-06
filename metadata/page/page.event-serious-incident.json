@@ -38,6 +38,11 @@
             "_id": "serious-incident-gang",
             "value": "gang",
             "text": "Gang activity"
+          },
+          {
+            "_id": "serious-incident-other",
+            "value": "other",
+            "text": "Other"
           }
         ]
       },

@@ -2,7 +2,7 @@
     "_id": "page.start",
     "_type": "page.start",
     "actionType": "saveContinue",
-    "heading": "Foster Parent Daily Diary",
+    "heading": "Foster parent daily diary",
     "components": [
       {
         "_id": "page.event-subject--radios.event-subject",

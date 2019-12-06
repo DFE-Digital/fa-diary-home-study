@@ -38,6 +38,11 @@
             "_id": "physical-health-hearing",
             "value": "hearing",
             "text": "Hearing appointment"
+          },
+          {
+            "_id": "physical-health-other",
+            "value": "other",
+            "text": "Other"
           }
         ]
       },
