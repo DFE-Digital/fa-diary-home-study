@@ -1,7 +1,8 @@
 {
-    "_id": "page.event-who",
-    "_type": "page.singlequestion",
-    "actionType": "continue",
+    "_id": "page.start",
+    "_type": "page.start",
+    "actionType": "saveContinue",
+    "heading": "Foster Parent Daily Diary",
     "components": [
       {
         "_id": "page.event-subject--radios.event-subject",

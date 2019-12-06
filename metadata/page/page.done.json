@@ -2,7 +2,15 @@
   "_id": "page.done",
   "_type": "page.confirmation",
   "heading": "Thank you",
-  "lede": "Your notes have been submitted successfully.",
+  "lede": "Your diary entry has been submitted successfully.",
   "url": "done",
-  "html": "<p>ddd</p>"
+  "components": [
+    {
+      "_id": "page.confirmation--button.new-entry",
+      "_type": "button",
+      "text": "Create another diary entry",
+      "href": "/",
+      "classes": "govuk-button--secondary"
+    }
+  ]
 }

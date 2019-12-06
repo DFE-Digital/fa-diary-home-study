@@ -5,6 +5,6 @@
   "body": "Here you can check your answers before submitting.",
   "heading": "Review your diary entry",
   "sendBody": "By submitting these notes you confirm that, to the best of your knowledge, the details you are providing are correct.",
-  "sendHeading": "Now send your notes",
+  "sendHeading": "Now send your diary entry",
   "url": "/review-diary-entry"
 }
