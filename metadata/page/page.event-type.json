@@ -1,5 +1,5 @@
 {
-  "_id": "page.event-child",
+  "_id": "page.event-type",
   "_type": "page.singlequestion",
   "actionType": "saveContinue",
   "components": [
@@ -62,16 +62,15 @@
           "name": "event-serious-incident"
         }
       ],
-      "legend": "Select all the events you want to write about",
+      "legend": "Select the events you want to write about",
       "validation": {
         "required": true
       }
     }
   ],
   "show": {
-    "identifier": "event-subject",
-    "operator": "is",
-    "value": "auto_value__1"
+    "identifier": "event-child",
+    "operator": "defined"
   },
   "enableSteps": true,
   "steps": [

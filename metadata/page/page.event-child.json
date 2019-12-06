@@ -1,0 +1,28 @@
+{
+    "_id": "page.event-child",
+    "_type": "page.singlequestion",
+    "actionType": "saveContinue",
+    "components": [
+      {
+        "_id": "page.event-child--text.event-child",
+        "_type": "text",
+        "label": "Which child is this about?",
+        "hint": "Please enter the child letter:",
+        "name": "event-child"
+      }
+    ],
+    "validation": {
+        "required": true
+      },
+      "show": {
+        "identifier": "event-subject",
+        "operator": "is",
+        "value": "auto_value__1"
+      },
+      "enableSteps": true,
+      "steps": [
+        "page.event-type"
+      ],
+    "url": "/enter-child"
+  }
+  
