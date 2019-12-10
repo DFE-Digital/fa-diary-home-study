@@ -14,13 +14,19 @@
             "_id": "special-education-positive",
             "_type": "radio",
             "label": "Positive",
-            "value": "1"
+            "value": "positive"
           },
           {
             "_id": "special-education-negative",
             "_type": "radio",
             "label": "Negative",
-            "value": "0"
+            "value": "negative"
+          },
+          {
+            "_id": "special-education-neutral",
+            "_type": "radio",
+            "label": "Neutral",
+            "value": "neutral"
           }
         ]
       },

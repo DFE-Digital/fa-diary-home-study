@@ -37,13 +37,19 @@
             "_id": "home-life-positive",
             "_type": "radio",
             "label": "Positive",
-            "value": "1"
+            "value": "positive"
           },
           {
             "_id": "home-life-negative",
             "_type": "radio",
             "label": "Negative",
-            "value": "0"
+            "value": "negative"
+          },
+          {
+            "_id": "home-life-neutral",
+            "_type": "radio",
+            "label": "Neutral",
+            "value": "neutral"
           }
         ]
       },

@@ -52,13 +52,19 @@
             "_id": "sport-positive",
             "_type": "radio",
             "label": "Positive",
-            "value": "1"
+            "value": "positive"
           },
           {
             "_id": "sport-negative",
             "_type": "radio",
             "label": "Negative",
-            "value": "0"
+            "value": "negative"
+          },
+          {
+            "_id": "sport-neutral",
+            "_type": "radio",
+            "label": "Neutral",
+            "value": "neutral"
           }
         ]
       },
