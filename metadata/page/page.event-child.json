@@ -17,7 +17,7 @@
       "show": {
         "identifier": "event-subject",
         "operator": "is",
-        "value": "auto_value__1"
+        "value": "child"
       },
       "enableSteps": true,
       "steps": [
