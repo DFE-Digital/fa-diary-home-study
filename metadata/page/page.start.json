@@ -27,7 +27,10 @@
   ],
   "enableSteps": true,
   "steps": [
-    "page.parent-request-training"
+    "page.event-child",
+    "page.parent-update",
+    "page.check",
+    "page.done"
   ],
-  "url": "/about-myself"
+  "url": "/"
 }
