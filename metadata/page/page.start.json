@@ -28,9 +28,7 @@
   "enableSteps": true,
   "steps": [
     "page.event-child",
-    "page.parent-update",
-    "page.check",
-    "page.done"
+    "page.parent-update"
   ],
-  "url": "/parent-update"
+  "url": "/"
 }
