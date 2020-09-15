@@ -27,8 +27,7 @@
   ],
   "enableSteps": true,
   "steps": [
-    "page.event-child",
-    "page.parent-update"
+    "page.event-type",
   ],
   "url": "/"
 }
