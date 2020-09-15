@@ -27,7 +27,7 @@
   ],
   "enableSteps": true,
   "steps": [
-    "page.event-type",
+    "page.event-type"
   ],
   "url": "/"
 }
