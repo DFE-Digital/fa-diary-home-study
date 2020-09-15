@@ -1,7 +1,36 @@
 {
   "_id": "page.start",
-  "_type": "page.confirmation",
-  "lede": "Thank you for taking part on the DfE diary study project.\n\nPlease contact Monica if you have any questions at monica.ferraro@digital.education.gov.uk",
-  "heading": "The project is now finished.",
+  "_type": "page.start",
+  "actionType": "saveContinue",
+  "heading": "Foster parent daily diary",
+  "components": [
+    {
+      "_id": "page.event-subject--radios.event-subject",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.event-subject--radios.event-subject--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Create a new diary entry for one of your children",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.event-subject--radios.event-subject--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Update information about yourself",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "What do you want to do?",
+      "name": "event-subject"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.event-child",
+    "page.parent-update",
+    "page.check",
+    "page.done"
+  ],
   "url": "/"
 }
